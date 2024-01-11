@@ -1,0 +1,60 @@
+- CSS
+
+* CSS Introduction
+* CSS Types (Inline, Internal, External)
+* CSS Selectors (Universal, Id, Class, Tag, Attrebute)
+* Background color, Text Fonts, Font-familiy, Font-size, font-style
+* CSS Colors (RGB, HEX, HSL)
+
+- Display hususiyatlari (inline, block, inline-block, none)
+- Float
+- Background (color, image, attachment)
+- Text (decoration, transform, indent, spacing, shadow, white-space, line-height)
+- Box modelling (Padding, Margin, Border, Width, Height)
+- Max-width, max-height
+- Box-sizing
+
+<!-- Lesson 3 -->
+
+- Flex-box: - flex-direction (row, row-reverse, column, column-reverse) - justify-content (flex-start, flex-end, center, space-between, space-around, space-evenly) - alig-items (flex-start, flex-end, center, stretch, baseline) - flex-wrap (wrap, nowrap)
+- Flex Items: - flex-shrink - flex-grow 1/0 - flex-basis - flex - order - align-self (flex-start, flex-end, center, stretch)
+
+<!-- Grid -->
+
+- Grid (column, row) vs Flex Box (row (left-right), column(top-bottom))
+- Display Grid
+- grid-template-columns (px, fr)
+- grid-template-rows (px, fr)
+- grid-row-gap, grid-column-gap, grid-gap
+- grid-column, grid-row
+- justify-items (stretch, start, center, end)
+- align-items (stretch, start, center, end)
+- grid-template-ares, grid-area
+- repeat(time, measure)
+
+<!-- Positions -->
+
+- Backround-clip (text) !(-webkit-background-clip (text))
+- Position: static, relative, absolute, fixed, sticky
+- Properties: bottom, left, right, top, z-index
+- Shadow: - text-shadow (horizontal, vertical, blur, color) - box-shadow (horizontal, vertical, blur, color, inset / outset) - linear-gradient (direction, color1, color2, ) - radial-gradient (direction, color1, color2, )
+- Selectors: - , - and - > - direct child of an element - + - first element after the chosen element - ~ - all element after the chosen element
+
+<!-- Animation -->
+
+- Transform:
+  rotate: - rotate(deg) - rotateX(deg) - rotateY(deg) - rotateZ(deg)
+  scale: - scale(Xtimes, Ytimes) - scaleX(times) - scaleY(times)
+  translate: - translate(Xpx, Ypx) - translateX(px) - translateY(px)
+  skew: - skew(Xdeg, Ydeg) - skewX(deg) - skewY(deg)
+
+- Transition: - transition-duration (s, ms) - transition-property (all, background, width, color) - transition-timing-function (ease, linear, ease-in, ease-out, ease-in-out, cubic-bezier) - transition-delay (s, ms) - transition (transition-property transition-duration transition-timing-function transition-delay)
+
+- Animation: - keyframe (from to, specific duration) - animation-name (name) - animation-duration (s) - animation-timing-function (ease, linear, ease-in, ease-out, ease-in-out, cubic-bezier) - animation-iteration-count (count, infinite) - animation-delay (s, ms) - animation-direction (normal, reverse, alternate, alternate-reverse) - animation-fill-mode (forwards, backwards) - animation-play-state (running, puased)
+
+<!-- Query and Pseudo classes -->
+
+- Pseudo class: - :active - clicked to an element - hover - hover over an element - focus (tabindex) - when an element has focused - first-child - an element which is the first child - last-child - an element which is the last child - nth-child - specific child of an element (odd, even) - only-child - an element which is the only element of another element - not - an element which is corresponds to given codition
+- Pseudo Element: - ::before - ::after - ::first-letter - ::first-line - ::selection
+
+- Media Query: - @media device-type and (condition) - device-type: print, screen, all - condition (min-width (more than), max-width (less than)), orientation (landscape, portrait)
